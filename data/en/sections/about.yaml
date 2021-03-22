@@ -8,71 +8,44 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation:
 # your company information
-company:
-  name: Example Co.
-  url: "https://www.example.com"
+#company:
+  #name: 상명무역 엔지니어링 판매품목
+  #url: "https://www.example.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+resume: "sangmyung-hp.github.io/posts/"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: '저희 상명무역 엔지니어링은 1991년 설립한 유럽 조선 해양기자재 에이전트로서 전장,선실 아이템을 두루 갖추고 있습니다'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
-  icon: "fas fa-envelope"
-  url: "example@gmail.com"
-
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
-
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "#"
-
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
+  icon: "fab fa-envelope"
+  url: "sangmyung@sangmyung.net"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Leadership
-  percentage: 85
+- name: 좌석 시스템
+  percentage: 100
   color: blue
-- name: Team Work
-  percentage: 90
+- name: 바닥재
+  percentage: 100
   color: yellow
-- name: Communication
-  percentage: 85
+- name: 문, 창문, 와이퍼
+  percentage: 100
   color: pink
-- name: Hard Working
-  percentage: 85
+- name: 케이블, 파이프
+  percentage: 100
   color: green
-- name: Fast Learner
-  percentage: 85
+- name: 원단, 커튼
+  percentage: 100
   color: sky
-- name: Problem Solving
-  percentage: 85
+- name: 천장(실링)
+  percentage: 100
   color: orange
-# you can also provide color code instead of pre-defined color name
-# - name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
-# - name: Example 2
-#   percentage: 65
-#   color: "#8b8383"
