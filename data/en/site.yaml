@@ -1,11 +1,5 @@
 # Copyright Notice
-copyright: © 2020 Copyright.
+copyright: sangmyung © 2020 Copyright.
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of John Doe.
-
-# specify the list of custom menus that you want to show in the top navbar.
-# they will be separated by a divider from the main menus.
-customMenus:
-- name: Docs
-  url: https://toha-guides.netlify.app/posts/
+description: 저희 상명무역 엔지니어링은 1991년 설립한 유럽 조선 해양기자재 에이전트로서 전장, 선실 아이템을 두루 갖추고 있습니다.
