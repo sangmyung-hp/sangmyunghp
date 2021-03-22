@@ -1,9 +1,9 @@
 # section information
 section:
-  name: Projects
+  name: Partners
   id: projects
   enable: true
-  weight: 5
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -12,53 +12,184 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
-
+- name: 좌석시스템
+  filter: "좌석"
+- name: 바닥재
+  filter: "바닥재"
+- name: 창문&문
+  filter: "창문&문"
+- name: 케이블
+  filter: "케이블"
+- name: 절연파이프
+  filter: "파이프"
+- name: 와이퍼
+  filter: "와이퍼"
+- name: 페브릭&커튼
+  filter: "페브릭"
+- name: 원단
+  filter: "원단"
+- name: 천장(실링)
+  filter: "천장"
+- name: 접착제
+  filter: "접착제"
+- name: 로프머신
+  filter: "로프머신"
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+- name: Norsap
+  logo: /images/sections/projects/Norsap.png
+  #role: Sangmyung
+  #timeline: "March 2018 - Present"
+  repo: https://norsap.no/
+  # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: 50여년의 역사를 가진 세계에서 인정받는 품질의 노르웨이 파일럿의자 제조업체.
+  tags: ["좌석"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
+- name: Figueras
+  logo: /images/sections/projects/figueras.png
+  #role: Sangmyung
+  #timeline: "Jun 2018 - Present"
+  repo: https://www.figueras.com/
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning","academic"]
+  summary: 90년 역사의 프로젝트 단위 엔지니어링 및 카운셀링업무 지원 가능한 하이엔드 좌석 업체
+  tags: ["좌석"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: Gerflor
+  logo: /images/sections/projects/Gerflor.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: https://www.streamobygerflor.com/
+  summary: 프랑스 비닐바닥재 빠른납기, 높은 품질, 합리적가격 IMO cert보유
+  tags: ["바닥재"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
+- name: Dansk Wilton
+  logo: /images/sections/projects/danskwilton.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: https://danskwilton.com/
+  summary: 덴마크 카페트 제조업체, 자유로운 디자인 컬러 IMO, CE, Russian cert 보유
+  tags: ["바닥재"]
+
+- name: Bergo
+  logo: /images/sections/projects/bergo.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: https://www.bergoflooring.com/
+  summary: 어떠한 기후 및 온도에도 적용 가능, 시공이 간편한 폴리프로필렌 소재의 스웨덴 tile바닥재(유해물질없음) IMO보유
+  tags: ["바닥재"]
+
+- name: Libra
+  logo: /images/sections/projects/libra.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: http://www.libra.no/
+  summary: 고객만족을 중시하는 노르웨이 GRP & Fire rated A60 steel door 제조 업체, IMO cert. 보유
+  tags: ["창문&문"]
+
+- name: Pocadel
+  logo: /images/sections/projects/Pocadel.jpg
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: http://www.pocadel.fi
+  summary: B0/B15/A60 등 핀란드 유리문/파티션 제조업체, IMO cert. 보유
+  tags: ["창문&문"]
+
+- name: Parmarine
+  logo: /images/sections/projects/parmarine.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: http://www.parmarine.fi
+  summary: 세계에서 인정받는 핀란드 A60 Fire sliding door/wall 및 cabin 제조업체, 각종 Major cert. 보유
+  tags: ["창문&문"]
+
+- name: Helkama
+  logo: /images/sections/projects/HELKAMA.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: http://www.helkamabica.fi
+  summary: 50년 이상의 역사를 가진 핀란드 전선, 전 제품 Halogen free, Flame retardant, DNV, KR, RMRS 등 11개의IMO 보유
+  tags: ["케이블"]
+
+- name: Ensto
+  logo: /images/sections/projects/ensto.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: http://www.ensto.com
+  summary: Cable connector, Distribution board 등IP68 방폭 Cable connector를 갖춘 핀란드 Distribution board 제조업체
+  tags: ["케이블"]
+
+- name: LR-Marine
+  logo: /images/sections/projects/lrmarine.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: http://www.lrmarine.dk
+  summary: 덴마크 LOGSTOR 사의 Marine application. 30년 이상의 수명을 자랑하는 Pre-insulated pipe 및 Emergency shower unit등을 공급
+  tags: ["파이프"]
+
+- name: B-hepworth(Wynn)
+  logo: /images/sections/projects/hepworth.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: http://www.b-hepworth.com
+  summary: 150년 역사의 영국 Wiper 제조업체, Marine 뿐만 아니라 Rail, Automotive 분야에서도 활약 중. DNV, ABS 등 보유
+  tags: ["와이퍼"]
+
+- name: Drapilux
+  logo: /images/sections/projects/drapilux.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: http://www.drapilux.com
+  summary: 뛰어난 Design & Quality의 독일 커튼 패브릭 제조업체, IMO cert. 보유
+  tags: ["페브릭"]
+
+- name: Mastrotto
+  logo: /images/sections/projects/mastrotto.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: http://www.mastrotto.com
+  summary: 60년 역사의 이탈리아 천연 가죽 업체, 세계적인 고급 Bovine 가죽 전문, IMO cert. 보유
+  tags: ["원단"]
+
+- name: Resinflex
+  logo: /images/sections/projects/resinflex.png
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: http://www.resinflex.com
+  summary: 70년 역사의 이탈리아 인조가죽 제조업체, 다양한 색상, IMO cert. 보유
+  tags: ["원단"]
+
+- name: Dampa
+  logo: /images/sections/projects/DAMPA.jpg
+  #role: Sangmyung
+  #timeline: "Jun 2019 - Present"
+  repo: http://www.dampa.dk
+  summary: 60년 이상의 역사를 지닌 덴마크 Fire class ceiling (A/B class) 업체, 조립식 구성으로 설치 용이
+  tags: ["천장"]
+
+- name: F-BALL
+  logo: /images/sections/projects/FBALL.png
+  #role: Sangmyung
+  #timeline: "Jun 2018 - Present"
+  repo: https://www.f-ball.com/en/
   #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+  summary: F-BALL은 영국 최고의 바닥재 준비 제품 및 바닥재 접착제 제조업체입니다.
+  tags: ["접착제"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: HERZOG
+  logo: /images/sections/projects/Herzog.png
+  #role: Sangmyung
+  #timeline: "Jun 2018 - Present"
+  repo: https://herzog-online.com/home/
+  #url: ""
+  summary: 1861년 설립 브레이딩, 권선 및 리와인딩 기술 분야의 세계적 선도업체
+  tags: ["로프머신"]
+
+- name: ROBCO
+  logo: /images/sections/projects/Robco.png
+  #role: Sangmyung
+  #timeline: "Jun 2018 - Present"
+  repo: https://www.robco-eng.com/
+  #url: ""
+  summary: Robco Engineering은 40년 이상의 경력을 가진 새로운 Rope Machines 회사입니다
+  tags: ["로프머신"]
