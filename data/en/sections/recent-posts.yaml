@@ -1,11 +1,7 @@
 # section information
 section:
-  name: Recent Posts
+  name: Product
   id: recent-posts
-  enable: true
-  weight: 6
+  enable: false
+  weight: 5
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
-
-# no additional configuration is required
